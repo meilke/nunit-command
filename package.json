@@ -1,6 +1,6 @@
 {
   "name": "nunit-command",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node plugin for preparing NUnit commands",
   "homepage": "https://github.com/meilke/nunit-command",
   "main": "index.js",
