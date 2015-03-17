@@ -1,4 +1,4 @@
-# grunt-nunit-runner 
+# nunit-command
 
 Node plugin for creating NUnit commands [NUnit](http://www.nunit.org/).
 
