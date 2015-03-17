@@ -1,0 +1,49 @@
+{
+  "name": "nunit-command",
+  "version": "0.1.0",
+  "description": "Node plugin for preparing NUnit commands",
+  "homepage": "https://github.com/meilke/nunit-command",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/meilke/nunit-command/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meilke/nunit-command.git"
+  },
+  "keywords": [
+    ".net",
+    "dotnet",
+    "nunit"
+  ],
+  "scripts": {
+    "test": "grunt"
+  },
+  "author": "Mike O'Brien, Christian Meilke",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "files": [
+    "*.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "temp": "~0.6.0",
+    "sax": "~0.5.8"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "expect.js": "~0.2.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-release": "~0.6.0",
+    "mocha": "~1.15.1",
+    "grunt-mocha-test": "~0.8.1",
+    "rewire": "~2.0.0",
+    "temp": "~0.6.0",
+    "sinon": "~1.7.3"
+  },
+  "peerDependencies": {
+    "grunt": "0.4.x"
+  }
+}
