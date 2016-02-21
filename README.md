@@ -1,3 +1,13 @@
+[![Build Status](https://api.travis-ci.org/meilke/nunit-command.png)](https://travis-ci.org/meilke/nunit-command)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![NPM version](https://badge.fury.io/js/nunit-command.svg)](http://badge.fury.io/js/nunit-command)  
+[![Code Climate](https://codeclimate.com/github/meilke/nunit-command/badges/gpa.svg)](https://codeclimate.com/github/meilke/nunit-command)
+[![Test Coverage](https://codeclimate.com/github/meilke/nunit-command/badges/coverage.svg)](https://codeclimate.com/github/meilke/nunit-command/coverage)
+[![Dependency Status](https://david-dm.org/meilke/nunit-command.svg)](https://david-dm.org/meilke/nunit-command)
+[![devDependency Status](https://david-dm.org/meilke/nunit-command/dev-status.svg)](https://david-dm.org/meilke/nunit-command#info=devDependencies)  
+[![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)](http://forthebadge.com)
+
+
 # nunit-command
 
 Node plugin for creating NUnit commands [NUnit](http://www.nunit.org/).
