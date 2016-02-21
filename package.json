@@ -17,7 +17,8 @@
     "nunit"
   ],
   "scripts": {
-    "test": "grunt"
+    "grunt": "grunt",
+    "test": "npm run grunt"
   },
   "author": "Mike O'Brien, Christian Meilke",
   "license": "MIT",

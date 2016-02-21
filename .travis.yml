@@ -1,5 +1,10 @@
 language: node_js
 node_js:
-  - "0.10"
+  - "5.5.0"
+before_install:
+  - npm install -g istanbul codeclimate-test-reporter
+install:
+  - npm install
 before_script:
-  - 'npm install -g grunt-cli' 
+  - istanbul cover node_modules/mocha/bin/_mocha -- -R spec
+  - CODECLIMATE_REPO_TOKEN=ca24271cd846ac8880674955767bbcfc3c3f210650334c85c7950016b974de1e codeclimate-test-reporter < coverage/lcov.info
